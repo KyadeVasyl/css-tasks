@@ -1,0 +1,148 @@
+:root {
+    background-color: 	#FFFFFF;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background-color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+
+    div .box div {
+        background-color: green;
+    }
+
+    div .box p {
+    background-color: red;
+    }
+
+    .brown {
+        background-color: brown;
+        color: #FFFFFF;
+    }
+
+    ul > li {
+        background-color: red;
+    }
+
+     .header-button + span {
+        background-color: red;
+    }
+
+    .susid ~ p {
+        background-color: blue;
+        color: white;
+    }
+
+    .salo, 
+    #bread {
+        background-color: yellow;
+    }
+
+    .first-task li:first-child {
+        color: white;
+    }
+
+    .first-first:first-child {
+        color: yellow;
+    }
+
+    .element-yellow:first-child {
+        background-color: yellow;
+    }
+
+
+    .four-task li:last-child {
+        background-color: yellow;
+    }
+
+    .white-li:last-child {
+        color: #FFFFFF;
+    }
+
+    .only-child-task :only-child {
+        color: red;
+    }
+
+    .seven-task p:first-of-type {
+        background-color: red;
+    }
+
+
+    
+    .eight-task span:last-of-type {
+        background-color: red;
+    }
+
+    
+    .text-wrapper p:only-of-type {
+        background-color: yellow;
+    }
+
+    a[href] {
+        color: white;
+    }
+
+    li[value] {
+        color: yellow;
+    }
+
+    li[value="3"] {
+        background-color: red;
+    }
+
+    button[class~="primary"] {
+        background-color: blue;
+    }
+
+    button[class|="secondary"] {
+        background-color: red;
+    }
+
+    .lesson-three-task-six [class^="b"] {
+        color: green;
+        background-color: #FFFFFF;
+    }
+
+    .lesson-three-task-seven [class*="on"] {
+        color: green;
+        background-color: white;
+    }
+
+    .lesson-three-task-eight [class$="s"] {
+        color: blue;
+        background-color: #FFFFFF;
+    }
+
+    .lesson-three-task-nine h2::first-letter {
+        color: red;
+    }
+
+    
+    .lesson-three-task-ten p::first-line {
+        background-color: yellow;
+    }
+
+    input::placeholder {
+        background-color: red;
+    }
+
+    .lesson-three-task-twelve li::before {
+        content: "➤";
+    }
+
+    .lesson-three-task-thirteen li::after {
+        content: "➤";
+    }
+
